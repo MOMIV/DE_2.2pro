@@ -26,7 +26,6 @@ create table if not exists  issued_books(
 	index_number serial PRIMARY KEY,
 	reader_id bigint,
 	book_id VARCHAR ( 255 ),
-	year_of_publishing date NOT NULL,
 	date_issue date,
 	date_return date,
 	FOREIGN KEY(reader_id) REFERENCES readers(reader_id) ON DELETE CASCADE,
@@ -34,9 +33,13 @@ create table if not exists  issued_books(
 );
 
 INSERT INTO readers (readername, adress, phone) 
-VALUES (
-	'Ivanov Ivan Ivanovich', 
-	'Moskow, Novaya street 45-63', 
-	'+79457894512'
-);
+VALUES 
+('Ivanov Ivan Ivanovich', 'Moskow, Novaya street 45-63', '+79457894512'),
+('Petrov Petr Andreevich', 'Rostov, Svetlaya  str 4', '89178899663'),
+('Ivanova Valentina Petrovys', 'Moskow, GnezdoKykyshki 77', '+74958899777');
+
+INSERT INTO publishing_houses (publishing_house_name, city) 
+VALUES 
+('NewView', 'Moskow'),
+('Oko', 'Magadan');
 
