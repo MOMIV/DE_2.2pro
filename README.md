@@ -15,3 +15,7 @@ Sql-cкрипт на создание таблиц должен выполнят
 sql-cкрипт создание таблиц БД,
 
 файл docker-compose.
+
+      Решение
+
+![Image alt](https://github.com/MOMIV/DE_2.2pro/raw/main/database%20-%20public.png)
