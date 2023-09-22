@@ -18,4 +18,8 @@ sql-cкрипт создание таблиц БД,
 
       Решение
 
+![Image alt](https://github.com/MOMIV/DE_2.2pro/raw/main/Pic/2023-09-22_10-51-23.png)
+
+![Image alt](https://github.com/MOMIV/DE_2.2pro/raw/main/Pic/2023-09-22_10-50-17.png)
+
 ![Image alt](https://github.com/MOMIV/DE_2.2pro/raw/main/database%20-%20public.png)
